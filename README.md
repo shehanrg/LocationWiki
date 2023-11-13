@@ -20,19 +20,3 @@ On Wikipedia codebase.
 ## 3. Notes
 
 This iOS application primarily serves as a demonstration of core functionality, with a minimal emphasis on UI design, interface elements or complex software architectures.
-
-## Folder Structure
-
-├── LocationWiki.xcodeproj
-├── LocationWiki
-    ├── Assets.xcassets
-    ├── ListLocations
-        ├── Entities
-            └── Locations.swift
-        ├── CustomLocationForm.swift
-        ├── ListLocationViewModel.swift
-        ├── ListLocationsView.swift
-        └── LocationWikiApp.swift
-    └── Network
-└── README.md
-
