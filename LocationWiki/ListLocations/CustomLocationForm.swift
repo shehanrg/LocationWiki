@@ -26,7 +26,6 @@ struct CustomLocationForm: View {
                     Button("Submit") {
                         submitButtonTapped()
                     }
-                    .foregroundStyle(.black)
                 }
                 if !errorMessage.isEmpty {
                     Section {
