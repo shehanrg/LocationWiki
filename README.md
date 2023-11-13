@@ -14,7 +14,7 @@ Ensure that you have the following software installed before setting up and runn
 ## 2. Implementation
 
 On Wikipedia codebase.
-- A new UserActivityType has introduced as <WMFUserActivityTypeLocation> and related methods has implemented to parse a url with 2 query parameters, `lat` and `long`. After parsing it will change to the `Places` tab and pan into the CLLocation resolved using the query parameters.
+- A new UserActivityType has introduced as `WMFUserActivityTypeLocation` and related methods has implemented to parse a url with 2 query parameters, `lat` and `long`. After parsing it will change to the `Places` tab and pan into the CLLocation resolved using the query parameters.
 - None of the current features are affected and a test case is added to check the parsing of the URL.
 
 ## 3. Notes
