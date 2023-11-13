@@ -11,7 +11,7 @@ import SwiftUI
 struct LocationWikiApp: App {
     var body: some Scene {
         WindowGroup {
-            let listViewModel = ListLocationViewModel()
+            let listViewModel = ListLocationsViewModel()
             ListLocationsView(viewModel: listViewModel)
         }
     }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomLocationForm: View {
-    @ObservedObject var viewModel: ListLocationViewModel
+    @ObservedObject var viewModel: ListLocationsViewModel
     
     @State private var latitude: String = ""
     @State private var longitude: String = ""
@@ -56,5 +56,5 @@ struct CustomLocationForm: View {
 }
 
 #Preview {
-    CustomLocationForm(viewModel: ListLocationViewModel())
+    CustomLocationForm(viewModel: ListLocationsViewModel())
 }

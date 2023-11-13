@@ -8,7 +8,7 @@
 import SwiftUI
 
 @MainActor
-class ListLocationViewModel: ObservableObject {
+class ListLocationsViewModel: ObservableObject {
     @Published var locations = [Location]()
     @Published var displayFormView = false
     
@@ -31,5 +31,9 @@ class ListLocationViewModel: ObservableObject {
             return
         }
         UIApplication.shared.open(url)
+    }
+    
+    func dismissFormView() {
+        
     }
 }

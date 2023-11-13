@@ -52,5 +52,3 @@ enum ApiError: Error {
     case failedSerialization
     case noInternet
 }
-
-//https://medium.com/@ihsanakbay/simple-generic-network-layer-using-async-await-in-swift-swiftui-ff7916b89ebf

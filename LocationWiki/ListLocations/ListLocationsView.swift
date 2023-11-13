@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ListLocationsView: View {
-    @ObservedObject var viewModel: ListLocationViewModel
+    @ObservedObject var viewModel: ListLocationsViewModel
     
     var body: some View {
         NavigationView{
@@ -64,5 +64,5 @@ struct ListLocationsView: View {
 }
 
 #Preview {
-    ListLocationsView(viewModel: ListLocationViewModel())
+    ListLocationsView(viewModel: ListLocationsViewModel())
 }
