@@ -6,6 +6,8 @@ LocationWiki is an iOS application that is built as a test application to call t
 
 This application requires a modified version of Wikipedia iOS application to run.
 
+Forked repository: https://github.com/shehanrg/wikipedia-ios
+
 Ensure that you have the following software installed before setting up and running the project:
 
 - Xcode (tested on v15.0)
@@ -20,3 +22,8 @@ On Wikipedia codebase.
 ## 3. Notes
 
 This iOS application primarily serves as a demonstration of core functionality, with a minimal emphasis on UI design, interface elements or complex software architectures.
+
+
+## 4. Demo
+https://github.com/shehanrg/LocationWiki/assets/1823960/548e88fd-66af-4fda-bb6a-d8ee91144b42
+
